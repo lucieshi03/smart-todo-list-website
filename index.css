@@ -1,0 +1,82 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f8ff;
+}
+
+.container {
+  padding: 20px;
+  border: 1px solid #87ceeb;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #87ceeb;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type='submit'] {
+  background-color: #87ceeb;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type='submit']:hover {
+  background-color: #00bfff;
+}
+/* Style for Add Task / Close button */
+.btn {
+  display: inline-block;
+  background-color: #87ceeb;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow */
+}
+
+.btn:hover {
+  background-color: #00bfff; /* Change background on hover */
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.btn:active {
+  background-color: #4682b4; /* Darker shade when pressed */
+  transform: scale(0.98); /* Slightly shrink when pressed */
+}
+
+.btn-red {
+  background-color: #ff6b6b; /* Red background for "Close" button */
+}
+
+.btn-red:hover {
+  background-color: #ff4c4c; /* Darker red on hover */
+}
+
+.btn-red:active {
+  background-color: #c0392b; /* Even darker red when pressed */
+}
